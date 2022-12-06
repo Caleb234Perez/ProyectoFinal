@@ -47,7 +47,7 @@
                     $texto = "Hola $nombre. \nSe ha registrado una solicitud para restablecer su contrasena. \nSu nueva contrasena es: $Newpass \nNo la comparta con nadie.";
                     
                     $correo = $bloqueo['correo'];
-                    //mail($correo,"Recuperacion de contraseña",$texto);
+                    mail($correo,"Recuperacion de contraseña",$texto);
                     $aux = 1;
                     //echo $Newpass;
                 }
