@@ -27,7 +27,7 @@
                             $sql = "UPDATE usuario SET c1='$cupon' WHERE id=$id";
                             $conexion->query($sql);
                             $texto = "Gracias por suscribirse. Su cupon unico de descuento es: $cupon. Otorga un 10% de descuento en la compra de su eleccion.";
-                            //mail($mail,"Cupon de Suscripcion",$texto);
+                            mail($mail,"Cupon de Suscripcion",$texto);
                             header("location:home.php");
                             //echo "actualizo";
                             break;
