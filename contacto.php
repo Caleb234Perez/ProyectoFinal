@@ -11,9 +11,9 @@
     $correo2="alsondelcorazon1170@gmail.com";
 
     //correo al cliente
-    //mail($correo,"Contacto",$texto1);
+    mail($correo,"Contacto",$texto1);
     //correo a nosotros
-    //mail($correo2,"Contacto",$texto2);
+    mail($correo2,"Contacto",$texto2);
   }
 ?>
 
